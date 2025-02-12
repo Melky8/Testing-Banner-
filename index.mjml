@@ -89,7 +89,7 @@
 		<mj-font href="https://fonts.googleapis.com/css?family=Mulish:500,700" name="Mulish"></mj-font>
 		<mj-font href="https://fonts.googleapis.com/css?family=Inter:700,400" name="Inter"></mj-font>
 		<mj-style inline="inline">
-			body, .emailify { mso-line-height-rule: exactly; mso-hyphenate: none; } .hd-1, .thd-1 .i-thumbnail, .ht-1, .hr-1, .hc-1, .ds-1 { mso-hide: all; display: none; height: 0; overflow: hidden; } .hd-1 *, .ds-1 * { mso-hide: all; } .hd-1, .hd-1 td, .ds-1, .ds-1 td { mso-padding-top-alt:0; mso-padding-bottom-alt:0; } sup, sub { line-height: 0; font-size: 75%; }
+			body, .emailify { mso-line-height-rule: exactly; mso-hyphenate: none; } .hd-1, .thd-1 .i-thumbnail, .ht-1, .hr-1, .hc-1, .ds-1 { mso-hide: all; display: none; height: 0; overflow: hidden; } .hd-1 *, .ds-1 * { mso-hide: all; } .hd-1, .hd-1 td, .ds-1, .ds-1 td { mso-padding-top-alt:0; mso-padding-bottom-alt:0; } sup, sub { line-height: 0; font-size: 75%; }.cr- > table > tbody > tr > td, .cr- > table { border-collapse: separate; border-spacing: 0px; }
 		</mj-style>
 		<mj-raw>
 			
@@ -119,19 +119,24 @@
         </style>
 			<![endif]-->
 			
+			<!--[if mso]><!-- -->
+			<style>
+				.cr- > table > tbody > tr > td, .c-r > table { border-collapse: collapse; }
+			</style>
+			<!--<![endif]-->
 		</mj-raw>
 	</mj-head>
-	<mj-body background-color="#dedede" css-class="bg " width="600px">
-		<mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="20px 32px 20px 32px" text-align="left">
+	<mj-body background-color="#f7f9fc" css-class="bg " width="600px">
+		<mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="0" text-align="left">
 			<mj-group css-class="gpc" direction="ltr" width="100%">
 				<mj-column background-color="transparent" border="none" css-class="c  " vertical-align="middle" width="100.0000%">
-					<mj-image align="left" alt="" border-radius="0" css-class="i  fw-1 " fluid-on-mobile="true" height="auto" padding="0" src="img/8ab19f9f8620c25308a93f362a6eb234.png" width="536px"></mj-image>
+					<mj-image align="left" alt="" css-class="c  " fluid-on-mobile="false" height="auto" padding="0" src="img/69de1182a496c02381fe58726121cd5f.jpg" width="600px"></mj-image>
 				</mj-column>
 			</mj-group>
 		</mj-section>
 		<mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="32px 32px 32px 32px" text-align="left">
 			<mj-column background-color="transparent" border="none" css-class="c  " vertical-align="middle" width="536px">
-				<mj-image align="center" alt="" border-radius="16px 16px 16px 16px" css-class="i  fw-1 " fluid-on-mobile="true" height="auto" padding="0" src="img/ab0e593c28525bd9f9807bceb91a6228.png" width="536px"></mj-image>
+				<mj-image align="center" alt="" css-class="c  cr- " fluid-on-mobile="false" height="auto" padding="0" src="img/2e89351207f857e9ed7ad8ccc605456e.png" width="536px"></mj-image>
 			</mj-column>
 		</mj-section>
 		<mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="32px 32px 32px 32px" text-align="left">
