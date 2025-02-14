@@ -69,6 +69,11 @@
       @media (prefers-color-scheme: dark) and (max-width:599px) {
       .ds-1.hd-1 { display: block!important; height: auto!important; overflow: visible!important; }
       }
+
+      /* Styling khusus untuk mobile */
+      @media only screen and (max-width:480px) {
+      .mobile-text { font-size: 14px !important; }
+      }
     </mj-style>
     <mj-html-attributes>
       <mj-selector path="td.s">
@@ -134,8 +139,8 @@
     <mj-wrapper background-color="#F4FAFF" padding="20px">
       <mj-section border="none" padding="0" text-align="left">
         <mj-column background-color="transparent" border="none" css-class="c  " vertical-align="middle" width="600px" padding="0px">
-            <mj-image alt="" css-class="c" height="auto" padding="0" width="600px" src="https://raw.githubusercontent.com/Melky8/Testing-Banner-/aef74fa1a9df39fef6f0a5ab473b5e640889338b/69de1182a496c02381fe58726121cd5f.jpg" fluid-on-mobile="false" border-radius="16px 16px 0px 0px"></mj-image>
-          </mj-column>
+          <mj-image alt="" css-class="c" height="auto" padding="0" width="600px" src="https://raw.githubusercontent.com/Melky8/Testing-Banner-/59408e45f70a8ba309809fa456a064930f1fc4ef/banners.png" fluid-on-mobile="false" border-radius="16px 16px 0px 0px"></mj-image>
+        </mj-column>
       </mj-section>
       <mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="32px 32px 32px 32px" text-align="left">
         <mj-column background-color="transparent" border="none" css-class="c  " vertical-align="middle" width="536px">
@@ -144,10 +149,10 @@
       </mj-section>
       <mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="32px 32px 32px 32px" text-align="left">
         <mj-column background-color="transparent" border="none" css-class="c  " vertical-align="middle" width="536px">
-          <mj-text align="left" color="black" css-class="x  " font-family="Arial, sans-serif" font-size="20px" line-height="1;" padding="0px">
+          <mj-text align="left" color="black" css-class="x  " font-family="Arial, sans-serif" font-size="20px" line-height="1;" padding="0px" mj-class="mobile-text">
             <p style="Margin:0;mso-line-height-alt:22px;"><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">Hi {{params.sender_name}},</span></p>
             <p style="Margin:0;mso-line-height-alt:22px;"><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">&nbsp;</span></p>
-            <p style="Margin:0;mso-line-height-alt:22px;"><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">Your payment has been rejected by our system, because:</span></p>
+            <p style="Margin:0;mso-line-height-alt:22px;" ><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">Your payment has been rejected by our system, because:</span></p>
             <p style="Margin:0;mso-line-height-alt:22px;"><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">{% for reason in params.reject_reason %}</span></p>
             <p style="Margin:0;mso-line-height-alt:22px;"><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">{{reason}}</span></p>
             <p style="Margin:0;mso-line-height-alt:22px;"><span style="font-size:16px;font-family:'Mulish', 'Arial', sans-serif;font-weight:500;color:#000000;line-height:138%;mso-line-height-alt:22px;">{% endfor %}</span></p>
