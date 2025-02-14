@@ -132,9 +132,9 @@
 
   <mj-body background-color="#f7f9fc" css-class="bg " width="600px">
     <mj-wrapper background-color="#F4FAFF" padding="20px">
-      <mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="0" text-align="left">
+      <mj-section border="none" padding="0" text-align="left">
         <mj-column background-color="transparent" border="none" css-class="c  " vertical-align="middle" width="600px" padding="0px">
-            <mj-image alt="" css-class="c" height="auto" padding="0" height="auto" width="600px" src="https://raw.githubusercontent.com/Melky8/Testing-Banner-/aef74fa1a9df39fef6f0a5ab473b5e640889338b/69de1182a496c02381fe58726121cd5f.jpg" fluid-on-mobile="true" border-radius="16px 16px 0px 0px"></mj-image>
+            <mj-image alt="" css-class="c" height="auto" padding="0" width="600px" src="https://raw.githubusercontent.com/Melky8/Testing-Banner-/aef74fa1a9df39fef6f0a5ab473b5e640889338b/69de1182a496c02381fe58726121cd5f.jpg" fluid-on-mobile="false" border-radius="16px 16px 0px 0px"></mj-image>
           </mj-column>
       </mj-section>
       <mj-section background-color="#fffffe" border="none" css-class="r  pr-16 pl-16 " padding="32px 32px 32px 32px" text-align="left">
